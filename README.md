@@ -23,11 +23,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Create an Azure Virtual Machine and login with Remote Desktop
+- Download the osTicket instalation files and unzip it onto your desktop, 
+- Install and enable osTicket-instalation files onto your remote desktop
+- open IIS as an admin  
+- continue setting up osTicket int the browser
 
 <h2>Installation Steps</h2>
 
@@ -35,7 +35,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Using the username and password, I login to the azure virtual machine with remote desktop. Within the VM osTicket download the osTicket-Instalation-Files.zip and unzip it onto my desktop.(Before you install ont eh browser Install and enabel IIS in Windows WITH CGI)
 </p>
 <br />
 
@@ -43,7 +43,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+From the OTNF folder install PHP Manager, rewrite Module, and MySQL5.5.62(launche Configuration WIzard after install with the username and password).Open IIS as an Admin and Register PHP from within IIS install osTicket into the browser.
 </p>
 <br />
 
@@ -51,6 +51,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+On the IIS default enable extention (imap,intl, and opache) rename ost-config.php to sampleconfig. Assign permissions(disable inheritance and give new permissions to all) Continue to set up osTicket int the browser with the mySQL database.
 </p>
 <br />
